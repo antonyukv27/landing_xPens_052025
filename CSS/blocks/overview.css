@@ -1,0 +1,44 @@
+.section--offset_top {
+    background-color: var(--color-accent);
+    background-image: url(../../imgs/vector.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25px 0 0;
+    margin-bottom: 250px;
+}
+
+.section--bg {
+    height: 750px;
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.overview__img-el {
+    display: block;
+    max-width: 100%;
+    width: 1110px;
+    height: auto;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 125px;
+    row-gap: 25px;
+    background-color: #fff;
+    width: 100%;
+    padding: 70px 0 150px;
+}
+
+.brand-logo {
+    max-width: 120px;
+    height: auto;
+}

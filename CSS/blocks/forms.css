@@ -1,0 +1,134 @@
+.section__contact {
+    padding: 100px 0;
+} 
+
+.section__centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__bg--colored {
+    background-color: var(--color-hero-background);
+}
+
+.title--medium {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    color: var(--color-text-main); 
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__content {
+    width: 100%;
+    max-width: 592px;
+    margin: 0 auto;
+}
+
+.form__input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.field {
+    width: 100%;
+    padding: 10px 8px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    color: var(--color-text-main);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background-color: var(--color-white); 
+}
+
+.form__input {
+    width: calc((100% - 12px) / 2);
+    max-height: 48px;
+}
+
+@media  screen and (max-width: 767px) {
+    .form__input {
+        width: 100%;
+    }
+}
+
+.form__textarea {
+    width: 100%;
+    padding: 10px 8px;
+    max-height: 134px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    color: var(--color-text-main);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background-color: var(--color-white);
+    resize: vertical;
+}
+
+.form__textarea::placeholder,
+.form__input::placeholder {
+    color: var(--color-text-gray);
+}
+
+.form__caption {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-text-main);
+    padding-left: 1px;
+    margin-bottom: 10px;
+}
+
+.form__label--agreement {
+    font-size: 14px;
+    padding: 3px 0;
+    line-height: 1.5;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-text-main);
+}
+
+.form__label--agreement a {
+    color: var(--color-text-main);
+    text-decoration: under;
+}
+
+.form__checkbox {
+    max-height: 15px;
+    accent-color: var(--color-accent);
+    border: 1px solid #303030;
+    border-radius: 3px;
+}
+
+.btn_base.btn_base--orange {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    height: 48px;
+    line-height: 48px;
+    min-width: 102px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
